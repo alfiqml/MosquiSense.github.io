@@ -1,0 +1,3 @@
+services:
+  - name: MosquiSense
+    startCommand: gunicorn gunicorn disease_prediction.wsgi:application
